@@ -1,7 +1,7 @@
 .story {
   width: 75%;
   margin: 5rem auto;
-  background-color: $color-white;
+  background-color: rgba($color-white, 0.6);
   box-shadow: 0 3rem 6rem rgba($color-black, 0.1);
   border-radius: 3px;
   padding: 6rem;
@@ -12,7 +12,6 @@
   &__shape {
     height: 15rem;
     width: 15rem;
-    background-color: tomato;
     float: left;
     -webkit-shape-outside: circle(50% at 50% 50%);
     shape-outside: circle(50% at 50% 50%);
