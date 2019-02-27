@@ -25,11 +25,11 @@
 
       <nav class="navigation__nav">
         <ul class="navigation__list">
-          <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span>About</a></li>
-          <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>Your benefits</a></li>
-          <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>Popular tours</a></li>
-          <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>Stories</a></li>
-          <li class="navigation__item"><a href="#" class="navigation__link"><span>05</span>Book now</a></li>
+          <li class="navigation__item"><a href="#about" class="navigation__link"><span>01</span>About</a></li>
+          <li class="navigation__item"><a href="#benefits" class="navigation__link"><span>02</span>Your benefits</a></li>
+          <li class="navigation__item"><a href="#tours" class="navigation__link"><span>03</span>Popular tours</a></li>
+          <li class="navigation__item"><a href="#stories" class="navigation__link"><span>04</span>Stories</a></li>
+          <li class="navigation__item"><a href="#booknow" class="navigation__link"><span>05</span>Book now</a></li>
         </ul>
       </nav>
     </div>
@@ -48,7 +48,7 @@
     </header>
 
     <main>
-      <section class="section-about">
+      <section class="section-about" id="about">
         <div class="u-center-text u-margin-bottom-bg">
           <h2 class="heading-secondary">
             Exciting tours for adventurous people
@@ -97,7 +97,7 @@
         </div>
       </section>
 
-      <section class="section-features">
+      <section class="section-features" id="benefits">
         <div class="row">
           <div class="col-1-of-4">
             <div class="feature-box">
@@ -150,7 +150,7 @@
         </div>
       </section>
 
-      <section class="section-tours">
+      <section class="section-tours" id="tours">
         <div class="u-center-text u-margin-bottom-bg">
           <h2 class="heading-secondary">
             Most popular tours
@@ -261,7 +261,7 @@
         </div>
       </section>
 
-      <section class="section-stories">
+      <section class="section-stories" id="stories">
         <div class="bg-video">
           <video class="bg-video__content" autoplay muted loop>
             <source src="img/video.mp4" type="video/mp4" />
@@ -332,7 +332,7 @@
         </div>
       </section>
 
-      <section class="section-book">
+      <section class="section-book" id="booknow">
         <div class="row">
           <div class="book">
             <div class="book__form">
@@ -422,6 +422,22 @@
         </div>
       </div>
     </footer>
+    <div class="popup">
+      <dov class="popup__content">
+        <div class="popup__left">
+          <img src="img/nat-8.jpg" alt="tour photo" class="popup__img" />
+          <img src="img/nat-9.jpg" alt="tour photo" class="popup__img" />
+        </div>
+        <div class="popup__right">
+          <h2 class="heading-secondary">Start booking now</h2>
+          <h3 class="heading-tertiary">Important &ndash; Please read these terms before booking</h3>
+          <p class="popup__text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam obcaecati soluta provident asperiores delectus eum, fuga tenetur at ipsum consectetur incidunt, ex est perspiciatis dolore tempore illum debitis nesciunt veritatis amet vero unde vel! Corporis expedita explicabo ipsam modi doloremque minima delectus eius veniam rerum error nobis quia maiores accusantium nemo perspiciatis perferendis dolorem culpa quos doloribus sunt, odio pariatur.
+          </p>
+          <a href="#" class="btn btn--green">Book now</a>
+        </div>
+      </dov>
+    </div>
     <!-- <section class="grid-layout">
       <div class="row">
         <div class="col-1-of-2">Col-1-of-2</div>
