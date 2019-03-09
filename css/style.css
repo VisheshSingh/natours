@@ -415,6 +415,9 @@ body {
   padding-left: 9rem;
   font-size: 1.6rem;
   transform: skewX(-12deg); }
+  @media (max-width: 56.25em) {
+    .story {
+      width: 100%; } }
   .story__shape {
     height: 15rem;
     width: 15rem;
